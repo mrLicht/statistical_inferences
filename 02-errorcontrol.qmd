@@ -62,7 +62,7 @@ A real-life example where it was useful to understand the concept of the positiv
 knitr::include_graphics("images/hospitalvaccinated.jpg")
 ```
 
-It is useful to understand what the probability is that, if you have observed a significant result in an experiment, the result is actually a true positive. In other words, in the long run, how many *true positives* can we expect, among all positive results (both true positives and false positives)? This is known as the Positive Predictive Value (PPV). We can also calculate how many *false positives* we can expect, among all positive results (again, both true positives and false positives). This is known as the **False Positive Report Probability** [@wacholder_assessing_2004], sometimes also referred to as the False Positive Risk [@colquhoun_false_2019].
+It is useful to understand what the probability is that, if you have observed a significant result in an experiment, the result is actually a true positive. In other words, in the long run, how many *true positives* can we expect, among all positive results (both true positives and false positives)? This is known as the **Positive Predictive Value** (PPV). We can also calculate how many *false positives* we can expect, among all positive results (again, both true positives and false positives). This is known as the **False Positive Report Probability** [@wacholder_assessing_2004], sometimes also referred to as the False Positive Risk [@colquhoun_false_2019].
 
 $$PPV = \frac{\text{True}\ \text{Positives}}{(\text{True}\ \text{Positives} +
                                                 \text{False}\ \text{Positives})}$$
